@@ -1,23 +1,26 @@
-# Pump.fun-Smart-Contract
-This is the Rust/Anchor smart contract for Pump.fun.
+# Solana-Pumpfun-Smart-Contract
+This is the Pump.fun smart contract developed using Rust and Anchor.
 
-## Contact
-telegram: @Takhi77
+## Clone Project
 
-You can contact me here if you have any problems with this repo then we can decide comfortable contact way.
+```bash
+   git clone https://github.com/derricklee918/Sol-Presale-Contract.git
+   cd Sol-Presale-Contract
+   yarn
+   ```
 
 ## Features
 It has All features that pump.fun has.
 
-✅ Token Mint
+- Token Mint
 
-✅ Create Pool with 30 Sol of initial virtual Sol reserve
+- Create Pool with 30 Sol of initial virtual Sol reserve
 
-✅ Add Liquidity
+- Add Liquidity
 
-✅ Swap Token with the price of the token (Virtual Sol Reserve / Virtual Token Reserve)
+- Swap Token with the price of the token (Virtual Sol Reserve / Virtual Token Reserve)
 
-✅ Raydium Launch when the Market Cap of the Token (price of the token * 10 ** 9) is reached to $69M
+- Raydium Launch when the Market Cap of the Token (price of the token * 10 ** 9) is reached to $69M
 
 When the Market Cap meet the KOH, the pumpfun launch the real Sol $12K i.e. $24K Liquidity to the Raydium.
 Then the rest of the liquidity will be gained by pumpfun team.
@@ -38,3 +41,7 @@ It has its own test cases to test all functions except Raydium Launch because it
 You can check the tx to Remove vitual LP and Create Raydium Pool in this smart contract with CPI calls.
 https://explorer.solana.com/tx/4L6MWmtV1ZsT8NFfbtu68ZYyYVbpvZ4iynJhPdZw8jESi28TxwojjTFs88Q5QRdNUb297aWfkKcoYP9Ya8npx8AV?cluster=devnet
 In this smart contract, I set creating LP FEE as 5% of Reserves.
+
+
+## Contact me
+Telegram: [@derricklee918](https://t.me/@derricklee918)
