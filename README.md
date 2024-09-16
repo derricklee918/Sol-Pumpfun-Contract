@@ -4,8 +4,8 @@ This is the Pump.fun smart contract developed using Rust and Anchor.
 ## Clone Project
 
 ```bash
-   git clone https://github.com/derricklee918/Sol-Presale-Contract.git
-   cd Sol-Presale-Contract
+   git clone https://github.com/derricklee918/Sol-Pumpfun-Contract.git
+   cd Sol-Pumpfun-Contract
    yarn
    ```
 
